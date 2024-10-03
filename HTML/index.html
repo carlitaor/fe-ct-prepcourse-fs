@@ -5,22 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi página web</title>
+    <link rel="stylesheet" href="../Estilos/reset.css">
+    <link rel="stylesheet" href="../Estilos/styles.css">
+
 </head>
 
 <body>
     <header>
-        <h1>TITULO DE PAGINA WEB</h1>
+        <h1 id="tituloPrincipal">TITULO DE PAGINA WEB</h1>
         <span>HOME_</span><span>NOTICIAS_</span><span>CLIMA_</span>
     </header>
 
     <main>
-
-        <img src="./noticianews.jpeg" alt="Noticias de Ultima Hora">
-
+        <div>
+            <img src="./noticianews.jpeg" alt="Noticias de Ultima Hora" id="banner">
+        </div>
         <section>
             <h2> Titulo de mi seccion de noticias </h2>
+
+
+            <div id="cards-conteiner">
+                <div class="cards">
+                    <h3 class="tituloNoticia">Titulo de mi noticia 1</h3>
+                    <img src="./logo1.jpeg" alt="" class="logo">
+                </div>
+
+                <div class="cards">
+                    <h3 class="tituloNoticia">Titulo de mi noticia 2</h3>
+                    <img src="./logo2.jpeg" alt="" class="logo">
+                </div>
+
+                <div class="cards">
+                    <h3 class="tituloNoticia">Titulo de mi noticia 3</h3>
+                    <img src="./logo3.jpeg" alt="" class="logo">
+                </div>
+
+            </div>
+
+
             <article>
-                <h3>Titulo de mi noticia</h3>
+                <div class="cards">
+                    <h3 class="tituloNoticia">Titulo de mi noticia 1</h3>
+                    <img src="./logo1.jpeg" alt="" class="logo">
+                </div>
 
                 <div>
                     <p>Mi nombre es {Carla}.</p>
@@ -35,7 +62,11 @@
                 <hr>
             </article>
             <article>
-                <h3>Titulo de mi noticia 2</h3>
+                <div class="cards">
+                    <h3 class="tituloNoticia">Titulo de mi noticia 2</h3>
+                    <img src="./logo2.jpeg" alt="" class="logo">
+                </div>
+
 
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid officia, aliquam
@@ -56,8 +87,12 @@
                 <hr>
             </article>
             <article>
-                <h3>Titulo de mi noticia 3</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum provident unde tenetur pariatur animi
+                <div class="cards">
+                    <h3 class="tituloNoticia">Titulo de mi noticia 3</h3>
+                    <img src="./logo3.jpeg" alt="" class="logo">
+                </div>
+                <p id="parrafoImportante">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum provident unde
+                    tenetur pariatur animi
                     laborum
                     dolore. Facere possimus debitis, maxime labore officiis dolores ullam itaque vel corrupti at
                     adipisci

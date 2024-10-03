@@ -1,0 +1,72 @@
+body {
+  background-color: rgba(218, 246, 255, 0.936);
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+p {
+  background-color: aliceblue;
+}
+
+#banner {
+  width: 65vw;
+}
+
+.tituloNoticia {
+  background-color: rgb(169, 204, 253);
+  font-size: 1,5em;
+
+}
+
+#parrafoImportante {
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#tituloPrincipal {
+  border: 2px, solid black;
+  width: 65vw;
+  margin: auto;
+  padding: 1em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+.cards {
+  border: 2px solid black;
+  width: fit-content;
+  padding: 3em 1em 3em 1em;
+  border-radius: 15%;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+
+}
+.cards:hover {
+  background-color: rgba(116, 158, 237, 0.734);
+}
+
+#cards-conteiner {
+  width: 85%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
